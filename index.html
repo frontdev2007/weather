@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ob-hava</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <p>Ob-havo</p>
+        <div class="weather">
+            <div class="weather-input">
+                <h3>Viloyatni tanlang</h3>
+                <select id="city-select" class="city-select" onchange="getCityCoordinates()">
+                    <option value="Viloyatlar">Viloyatlar</option>
+                    <option value="41.302600485376125,69.24089911701786">Toshkent</option>
+                    <option value="40.814594310053884,72.28941744970928">Andijon</option>
+                    <option value="39.773194054133604,64.46712733418204">Buxoro</option>
+                    <option value="40.12323818318624,67.87979690309726">Jizzax</option>
+                    <option value="41.00818634186876,71.64735362683452">Namangan</option>
+                    <option value="40.104173605182474,65.36749269312968">Navoi</option>
+                    <option value="38.85413297995598,65.77242099634255">Qashqadaryo</option>
+                    <option value="44.72538219084079,56.26094493991478">Qoraqalpogiston</option>
+                    <option value="39.66549462629238,66.95856574990955">Samarqand</option>
+                    <option value="40.83665917330977,68.64198581243215">Sirdaryo</option>
+                    <option value="37.262257465589435,67.30876511060862">Surxondaryo</option>
+                    <option value="41.349827492905575,69.82249859003444">Toshkent viloyati</option>
+                    <option value="41.55744242063179,60.61766991995681">Xorazm</option>
+                    <option value="40.37339308651729,71.79936215621902">Farg'ona</option>
+                </select>
+                <div class="separator"></div>
+                <button class="location-btn">Joriy joylashuvdan foydalaning</button>
+            </div>
+            <div class="weather-data">
+                <div class="current-weather">
+                    <div class="details">
+                        <h2>////// ( ////// )</h2>
+                        <h6>Harorat: __°C</h6>
+                        <h6>Shamol: __ M/S</h6>
+                        <h6>Namlik: __%</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="days-forecast">
+            <h2>5 kunlik prognoz</h2>
+            <ul class="weather-cards">
+                <li class="card">
+                    <h3>( ////// )</h3>
+                    <h6>Harorat: __C</h6>
+                    <h6>Shamol: __ M/S</h6>
+                    <h6>Namlik: __%</h6>
+                </li>
+                <li class="card">
+                    <h3>( ////// )</h3>
+                    <h6>Harorat: __C</h6>
+                    <h6>Shamol: __ M/S</h6>
+                    <h6>Namlik: __%</h6>
+                </li>
+                <li class="card">
+                    <h3>( ////// )</h3>
+                    <h6>Harorat: __C</h6>
+                    <h6>Shamol: __ M/S</h6>
+                    <h6>Namlik: __%</h6>
+                </li>
+                <li class="card">
+                    <h3>( ////// )</h3>
+                    <h6>Harorat: __C</h6>
+                    <h6>Shamol: __ M/S</h6>
+                    <h6>Namlik: __%</h6>
+                </li>
+                <li class="card">
+                    <h3>( ////// )</h3>
+                    <h6>Harorat: __C</h6>
+                    <h6>Shamol: __ M/S</h6>
+                    <h6>Namlik: __%</h6>
+                </li>
+            </ul>
+        </div>
+        <br>
+    </div>
+        <div class="footer">
+            <h1>Abidov Muhammadsaid Ikromxo'jayevich / muhammadxon2007abidov@gmail.com / <a href="https://t.me/FrontDev01" target="_blank" > https://t.me/FrontDev01 </a> / +999 (91) 057 78 27 / <a href="https://ob-havo-global.netlify.app/" target="_blank" >https://ob-havo-global.netlify.app/</a></h1>
+        </div>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
